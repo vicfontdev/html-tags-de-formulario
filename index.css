@@ -38,3 +38,26 @@ form input, form select, form textarea{
 form textarea{
     height: 100px;
 }
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    font-weight: bold;
+    color: cadetblue;
+    background-color: white;
+    padding: 8px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 3px solid cadetblue;
+    box-sizing: border-box;
+    transition: transform 200ms ease-in-out;
+}
+
+button:hover {
+    border: 3px solid white;
+    background-color: cadetblue;
+    color: white;
+    transform: scale(1.05);
+}
